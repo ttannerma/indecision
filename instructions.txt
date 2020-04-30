@@ -1,0 +1,12 @@
+babel auto compile command:
+babel src/app.js --out-file=public/scripts/app.js --presets='env,react' --watch
+
+launch live-server:
+live-server public
+
+run custom scripts defined in package.json:
+npm run <script>
+
+npm run build-babel
+npm run build
+npm run serve
